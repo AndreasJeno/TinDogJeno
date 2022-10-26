@@ -1,5 +1,10 @@
 #title{
     background-color: #ff4c68;
+
+}
+
+.title-txt{
+    font-size: 2.5rem;
 }
 
 h1{
@@ -26,4 +31,56 @@ h1{
 .nav-item{
     padding: 0 18px;
     font-size: 1.1rem;
+    font-family: "Ubuntu";
+}
+
+/* Dowload buttn */
+
+.download-btn{
+    margin: 5% 3% 5% 0%;
+     /* top left bot right */
+}
+
+/* title image */
+
+/* .iphone{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    color: white;
+    position: relative;
+    transform: rotate(20deg);
+    text-align: center;
+    left: 29%;
+    top: 30%;
+} */
+.titile-img{
+    width: 60%;
+    margin: 10% 20% 10% 20%;
+    margin-left: 20%;
+    transform: rotate(20deg);
+   
+}
+
+
+/* features */
+
+h3{
+    font-family:"montserrat";
+    font-size: 1.5rem;
+}
+.check-icon,
+.circle-icon,
+.love-icon{
+    size-adjust: 100px;
+
+  
+}
+#features{
+    text-align: center;
+}
+.paragraph-features{
+    color: #6d6868;
+}
+.features-part{
+    padding: 10% 10% 10% 10%;
 }
