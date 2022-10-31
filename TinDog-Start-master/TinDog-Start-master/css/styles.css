@@ -1,34 +1,35 @@
-#title{
+#title {
     background-color: #ff4c68;
 
 }
 
-.title-txt{
+.title-txt {
     font-size: 2.5rem;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    line-height: 1.5;  
+    line-height: 1.5;
     color: whitesmoke;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 3% 15%;
 }
 
 /* navigation bar */
-.navbar-brand{
+.navbar-brand {
     font-family: "Ubuntu";
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.navbar{
+.navbar {
     padding-bottom: 4.5rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
     font-size: 1.1rem;
     font-family: "Ubuntu";
@@ -36,9 +37,9 @@ h1{
 
 /* Dowload buttn */
 
-.download-btn{
+.download-btn {
     margin: 5% 3% 5% 0%;
-     /* top left bot right */
+    /* top left bot right */
 }
 
 /* title image */
@@ -53,34 +54,90 @@ h1{
     left: 29%;
     top: 30%;
 } */
-.titile-img{
+.titile-img {
     width: 60%;
     margin: 10% 20% 10% 20%;
     margin-left: 20%;
     transform: rotate(20deg);
-   
+
 }
 
 
 /* features */
 
-h3{
-    font-family:"montserrat";
+h3 {
+    font-family: "montserrat";
     font-size: 1.5rem;
 }
+
+h2{
+    font-family: "montserrat";
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
 .check-icon,
 .circle-icon,
-.love-icon{
+.love-icon {
     size-adjust: 100px;
 
-  
+
 }
-#features{
+
+#features {
     text-align: center;
 }
-.paragraph-features{
+
+.paragraph-features {
     color: #6d6868;
 }
-.features-part{
+
+.features-part {
     padding: 10% 10% 10% 10%;
+}
+
+.icon{
+    margin: 0 0 10px 0;
+    color: #f093a1;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+
+.testimonials-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.carousel-item{
+    padding: 7% 20%;
+}
+
+/* press section */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+
+.img-press{
+    width: 20%;
+    margin: 20px 20px 50px;
+    
+}
+
+/* price title */
+
+.pricing-card-title{
+    color: #8a8888;
 }
