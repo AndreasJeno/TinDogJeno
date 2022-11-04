@@ -2,11 +2,9 @@
     background-color: #ff4c68;
 
 }
-
 .title-txt {
     font-size: 2.5rem;
 }
-
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -104,9 +102,14 @@ h2{
     color: #ff4c68;
 }
 
+.row-easy-toUse{
+    position: relative;
+   /* bottom: 600px; */
+    /* background-color:black; */
+}
 /* testimonials */
 #testimonials{
-    padding: 7% 15%;
+    padding: 5% 15%;
     text-align: center;
     background-color: #ff4c68;
     color: aliceblue;
@@ -132,12 +135,22 @@ h2{
 
 .img-press{
     width: 20%;
-    margin: 20px 20px 50px;
+    margin: 10px 10px 10px;
     
 }
 
 /* price title */
 
 .pricing-card-title{
-    color: #8a8888;
+    color: #080808;
+}
+
+.container-card{
+    padding: 5% ;
+}
+.card-header{
+    background-color: #ff4c68;
+}
+.tite-container{
+    text-align: center;
 }
